@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash2"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/nameEditText"
+
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="191dp"
+        android:alpha="0.93"
+        android:background="@drawable/buttom_shape"
+        android:textSize="16sp"
+        android:ems="12"
+        android:hint="name"
+        android:inputType="textPersonName"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/phoneEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:alpha="0.93"
+        android:background="@drawable/buttom_shape"
+        android:textSize="16sp"
+        android:ems="12"
+        android:hint="phone number"
+        android:inputType="phone"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:alpha="0.93"
+        android:background="@drawable/buttom_shape"
+        android:textSize="16sp"
+        android:ems="12"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:padding="8dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="217dp"
+        android:layout_height="39dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:textSize="14sp"
+        android:ems="12"
+        android:alpha="0.93"
+        android:background="@drawable/buttom_shape"
+        android:padding="8dp"
+        android:layout_weight="0.01" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:alpha="0.93"
+        android:background="@drawable/buttom_shape"
+        android:padding="8dp"
+        android:textSize="16sp"
+
+        android:text="Submit"
+        tools:layout_editor_absoluteX="148dp" />
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:context="com.example.shared.hackathon.MainMenuActivity">
+
+        <ImageView
+            android:id="@+id/placesImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/menu_margin"
+            android:alpha="0.5"
+            android:src="@drawable/maindisplay" />
+
+
+        <TextView
+            android:id="@+id/placesTexview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/placesImageView"
+
+            android:layout_centerVertical="true"
+            android:layout_margin="20dp"
+            android:text="Places to Visit"
+            android:textColor="#000"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:context="com.example.shared.hackathon.MainMenuActivity">
+
+        <ImageView
+            android:id="@+id/guideImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/menu_margin"
+            android:alpha="0.5"
+            android:src="@drawable/guidemaindisplay" />
+
+        <TextView
+            android:id="@+id/guideTextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/guideImageView"
+            android:layout_centerVertical="true"
+            android:layout_margin="20dp"
+            android:text="Guides Available in City"
+            android:textColor="#000"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight=".25"
+        android:alpha="0.8"
+        android:background="@drawable/buttom_shape"
+        android:text="Sign Out"
+        android:textSize="24sp"
+
+        />
+</LinearLayout>
